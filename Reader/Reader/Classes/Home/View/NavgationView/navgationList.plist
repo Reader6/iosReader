@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>经典名著</string>
+		<key>imageName</key>
+		<string>ming</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>唐诗宋词</string>
+		<key>imageName</key>
+		<string>shi</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>课程教材</string>
+		<key>imageName</key>
+		<string>ke</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>参考书籍</string>
+		<key>imageName</key>
+		<string>can</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>实验手册</string>
+		<key>imageName</key>
+		<string>yan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>时事新闻</string>
+		<key>imageName</key>
+		<string>wen</string>
+	</dict>
+</array>
+</plist>

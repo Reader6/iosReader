@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>西游记</string>
+		<key>imageName</key>
+		<string>xiyouji</string>
+		<key>introduce</key>
+		<string>四人帮的西方讨伐之路</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>钢铁是怎样炼成的</string>
+		<key>imageName</key>
+		<string>gantie</string>
+		<key>introduce</key>
+		<string>保尔的崛起之路</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>水浒传</string>
+		<key>imageName</key>
+		<string>shuihu</string>
+		<key>introduce</key>
+		<string>都是大汉</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>红楼梦</string>
+		<key>imageName</key>
+		<string>hong</string>
+		<key>introduce</key>
+		<string>看不进去就对了</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>更多</string>
+		<key>imageName</key>
+		<string>book1</string>
+		<key>introduce</key>
+		<string>点进来瞅瞅</string>
+	</dict>
+</array>
+</plist>

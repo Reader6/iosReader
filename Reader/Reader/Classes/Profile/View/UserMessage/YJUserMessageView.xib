@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MGd-0G-hNo" customClass="YJUserMessageView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="8Ft-O7-bgi">
+                    <rect key="frame" x="157" y="10" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="7kq-Oi-FGG"/>
+                        <constraint firstAttribute="width" constant="100" id="joy-Fx-mU8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfg-mB-OtU">
+                    <rect key="frame" x="187.5" y="125" width="39" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OED-58-wxU">
+                    <rect key="frame" x="45" y="150" width="80" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="我的关注">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slr-tC-g5t">
+                    <rect key="frame" x="289" y="150" width="80" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="M4s-DB-RCI"/>
+                        <constraint firstAttribute="width" constant="80" id="sfl-EN-aYZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="我的发布">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="EJZ-uq-M7O" firstAttribute="trailing" secondItem="Slr-tC-g5t" secondAttribute="trailing" constant="45" id="0Vp-DB-DVn"/>
+                <constraint firstItem="Kfg-mB-OtU" firstAttribute="centerX" secondItem="8Ft-O7-bgi" secondAttribute="centerX" id="1Y0-LG-kfH"/>
+                <constraint firstItem="8Ft-O7-bgi" firstAttribute="top" secondItem="MGd-0G-hNo" secondAttribute="top" constant="10" id="4jT-wA-wqV"/>
+                <constraint firstItem="OED-58-wxU" firstAttribute="leading" secondItem="EJZ-uq-M7O" secondAttribute="leading" constant="45" id="EV6-52-dGC"/>
+                <constraint firstItem="OED-58-wxU" firstAttribute="width" secondItem="Slr-tC-g5t" secondAttribute="width" id="Y3O-9B-u6R"/>
+                <constraint firstItem="OED-58-wxU" firstAttribute="bottom" secondItem="Slr-tC-g5t" secondAttribute="bottom" id="aDf-Bi-rCC"/>
+                <constraint firstItem="OED-58-wxU" firstAttribute="height" secondItem="Slr-tC-g5t" secondAttribute="height" id="dA2-7Z-J53"/>
+                <constraint firstItem="EJZ-uq-M7O" firstAttribute="bottom" secondItem="Slr-tC-g5t" secondAttribute="bottom" constant="15" id="fSk-M1-sTf"/>
+                <constraint firstItem="8Ft-O7-bgi" firstAttribute="centerX" secondItem="MGd-0G-hNo" secondAttribute="centerX" id="kmJ-ZY-0oA"/>
+                <constraint firstItem="Kfg-mB-OtU" firstAttribute="top" secondItem="8Ft-O7-bgi" secondAttribute="bottom" constant="15" id="nn9-DL-zEv"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EJZ-uq-M7O"/>
+            <point key="canvasLocation" x="257.97101449275362" y="-25.446428571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon" width="50" height="50"/>
+    </resources>
+</document>
